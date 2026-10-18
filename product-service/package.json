@@ -1,0 +1,15 @@
+{
+  "name": "product-service",
+  "version": "1.0.0",
+  "description": "BTH3 - Dich vu quan ly san pham (Product Management) theo kien truc SOA",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/api.test.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "express": "^5.2.1"
+  }
+}
